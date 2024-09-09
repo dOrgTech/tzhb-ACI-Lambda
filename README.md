@@ -13,7 +13,6 @@ We are after the Lambda code pertaining to an Arbitrary Contract Interaction cap
 
 
 ## Definition of done
-
 1. The delivered code should pass the [validation](https://github.com/tezos-commons/baseDAO/blob/be77424a313ace8e3f3c2748a1cbbc18acfe8001/src/variants/lambda/types.mligo#L63) done by the baseDAO contract.
 
 2. The delivered code should contain the logic for relaying a contract call based on provided data. The success or failure of the final execution of  is outside of the scope of this task, and we are not necessarily looking to integrate a transaction simulation at this stage. But assuming that the call is allowed by the logic of the destination contract, it should go through successfully. To that end, for the purposes of establishing successful completion of this task, we should use a very simple contract on Ghostnet, with an endpoint that just changes the value of a string.
@@ -22,7 +21,8 @@ We are after the Lambda code pertaining to an Arbitrary Contract Interaction cap
 
 The contractor should submit their work to the `submissions` folder.
 
-### Project Duration and Payment Terms
+
+###  Payment Terms and Duration
 
 - **Maximum Duration**: The Contractor must be completed within 3 months after signing this Project on the Trustless Business platform. 
 
